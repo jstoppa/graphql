@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace GraphQL.GraphiQL.Controllers
 {
@@ -28,12 +29,14 @@ namespace GraphQL.GraphiQL.Controllers
 
         // This will display an example error
         [HttpGet]
+        [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
         public Task<HttpResponseMessage> GetAsync(HttpRequestMessage request)
         {
             return PostAsync(request, new GraphQLQuery { Query = "query foo { hero { id name appearsIn } }", Variables = null });
         }
 
         [HttpPost]
+        [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
         public async Task<HttpResponseMessage> PostAsync(HttpRequestMessage request, GraphQLQuery query)
         {
             var inputs = query.Variables.ToInputs();
