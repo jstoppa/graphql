@@ -13,7 +13,7 @@ Once you've cloned the repo, you'll see two folders:
 - frontend
 
 # Running the backend
-- Navigate to the folder ```backend/WebApi``` and open the file example.sln in Visual Studio
+- Navigate to the folder ```backend/WebApi``` and open the file ```Example.sln``` in Visual Studio
 - Start the solution (you might need to set the project as Startup Project)
 - Navigate to the website http://localhost:49779 and you should see the GraphQL playground as shown below in the screenshot
 
