@@ -1,7 +1,7 @@
 This repo contains a hello word angular application that connects to a GraphQL .NET backend
 
-# How to install this?
-Navigate to a local folder and clone the repo 
+# How to set this up?
+Navigate to a local folder where you put to put the repo and clone the repo 
 
 ```bash
 git clone https://github.com/jstoppa/graphql
