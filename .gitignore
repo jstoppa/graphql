@@ -9,7 +9,6 @@
 project.lock.json
 npm-debug.log
 yarn-error.log
-bundle.js
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
@@ -27,6 +26,4 @@ _NCrunch_*/
 *.ncrunchproject
 *.ncrunchsolution
 
-bundle.js
-bundle.css
 style.css
