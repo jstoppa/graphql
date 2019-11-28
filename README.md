@@ -8,6 +8,7 @@ git clone https://github.com/jstoppa/graphql
 cd graphql
 ```
 
+
 Once you've cloned the repo, you'll see two folders:
 - backend 
 - frontend
